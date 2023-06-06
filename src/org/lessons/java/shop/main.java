@@ -32,7 +32,7 @@ public class main {
         System.out.println("Nome: " + nome);
         System.out.println("Descrizione: " + descrizione);
         System.out.println("Prezzo: " + decimalFormat.format( prodotto.getPrezzoBase()) + " €");
-        System.out.println("Prezzo + iva al " +iva+ "%: " +decimalFormat.format( prodotto.getPrezzoIvato(iva)) + " €");
+        System.out.println("Prezzo + iva al " +iva+ "%: " +decimalFormat.format( prodotto.getPrezzoIvato(iva))  + " €");
         System.out.println("Nome esteso del prodotto: " +prodotto.nomeEsteso());
 
 

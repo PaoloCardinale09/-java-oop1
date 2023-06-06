@@ -33,10 +33,10 @@ public class Prodotto {
 
     // FIELDS (private)
     private int codice;
-    protected String nome;
-    protected String descrizione;
-    protected double prezzo;
-    protected double iva;
+    private String nome;
+    private String descrizione;
+    private double prezzo;
+    private double iva;
 
     // CONTRUCTORS (public)
     public  Prodotto(String nome, String descrizione, double prezzo, int iva){
